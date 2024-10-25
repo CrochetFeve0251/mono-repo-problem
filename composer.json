@@ -1,7 +1,11 @@
 {
     "name": "wp-launchpad/mono-repo-problem",
+    "minimum-stability": "dev",
     "require-dev": {
         "soyuka/pmu": "^0.0.15"
+    },
+    "require": {
+        "wp-launchpad/framework-options-take-off": "@dev"
     },
     "extra": {
         "pmu": {
